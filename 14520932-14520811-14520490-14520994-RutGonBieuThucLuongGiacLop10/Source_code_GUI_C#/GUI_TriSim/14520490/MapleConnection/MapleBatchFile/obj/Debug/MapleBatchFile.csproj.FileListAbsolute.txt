@@ -1,0 +1,84 @@
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MapleBatchFile.resources
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+d:\documents\visual studio 2015\Projects\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MapleBatchFile.resources
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+D:\Dropbox\From 20160502 Materials\Lecture and Excercise\Lap Trinh Tinh Toan Hinh Thuc\Bai Giang Maple\Ket noi Maple C#\KetNoiCSharpVoiMaple\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MapleBatchFile.resources
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MapleBatchFile.resources
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\ccccc\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MapleBatchFile.resources
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\deadline_Symbolic\14520490 (9)\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormShowGuide.resources
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\FlatUI.dll
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MainForm.resources
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormShowResult.resources
+C:\Users\tranq\Desktop\deadline_Symbolic\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormAbout.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormAbout.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormShowGuide.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormShowResult.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MainForm.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\bin\Debug\FlatUI.dll
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_C#\GUI_TriSim\14520490\BT4\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\bin\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\bin\Debug\FlatUI.dll
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormAbout.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormShowGuide.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.FormShowResult.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.MainForm.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\symbolic-handin\symbolicDOAN\14520932-14520811-14520490-14520994-RutGonBieuThucLuongGiacLop10\Source_code_GUI_C#\GUI_TriSim\14520490\MapleConnection\MapleBatchFile\obj\Debug\MapleBatchFile.pdb

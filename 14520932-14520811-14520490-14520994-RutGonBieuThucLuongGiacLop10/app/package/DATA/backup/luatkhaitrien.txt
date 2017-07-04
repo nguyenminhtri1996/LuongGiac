@@ -1,0 +1,17 @@
+begin_rules
+sin(2*x)=2*sin(x)*cos(x)
+cos(2*x)=cos(x)^2-sin(x)^2
+tan(x)=sin(x)/cos(x)
+cot(x)=cos(x)/sin(x)
+cos(2*x)=2*cos(x)^2-1
+cos(2*x)=1-2*sin(x)^2
+sin(3*x)=3*sin(x)-4*sin(x)^3
+cos(3*a)=4*cos(x)^3-3*cos(x)
+2/sin(2*x)=cot(x)+tan(x)
+2*cot(2*x)=cot(x)-tan(x)
+sin(x+y)=sin(x)*cos(y)+cos(x)*sin(y)
+cos(x+y)=cos(x)*cos(y)-sin(x)*sin(y)
+sin(x)^2 = 1-cos(x)^2
+cos(x)^2 = 1-sin(x)^2
+
+end_rules

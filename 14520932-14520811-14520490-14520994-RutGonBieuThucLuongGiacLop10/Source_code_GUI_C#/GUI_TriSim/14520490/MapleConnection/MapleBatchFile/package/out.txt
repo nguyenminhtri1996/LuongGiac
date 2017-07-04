@@ -1,0 +1,30 @@
+Input:
+{\frac {\cos \left( x \right) \tan \left( x \right) }{ \left( \sin \left( x \right)  \right) ^{2}}}-\cot \left( x \right) \cos \left( x \right) 
+Bước 1:
+Đặt thừa số chung
+Ta có:
+f=-\cos \left( x \right)  \left( -{\frac {\tan \left( x \right) }{ \left( \sin \left( x \right)  \right) ^{2}}}+\cot \left( x \right)  \right) 
+Bước 2:
+Áp dụng:
+ \tan \left( x \right) ={\frac {\sin \left( x \right) }{\cos \left( x \right) }}:
+Ta có:
+f=-\cos \left( x \right)  \left( -{\frac {1}{\sin \left( x \right) \cos \left( x \right) }}+\cot \left( x \right)  \right) 
+Bước 3:
+Áp dụng:
+ \cot \left( x \right) ={\frac {\cos \left( x \right) }{\sin \left( x \right) }}:
+Ta có:
+f=-\cos \left( x \right)  \left( -{\frac {1}{\sin \left( x \right) \cos \left( x \right) }}+{\frac {\cos \left( x \right) }{\sin \left( x \right) }} \right) 
+Bước 4:
+Tích thành tổng
+Ta có:
+f= \left( \sin \left( x \right)  \right) ^{-1}-{\frac { \left( \cos \left( x \right)  \right) ^{2}}{\sin \left( x \right) }}
+Bước 5:
+Đặt thừa số chung
+Ta có:
+f=-{\frac { \left( \cos \left( x \right)  \right) ^{2}-1}{\sin \left( x \right) }}
+Bước 6:
+Áp dụng:
+  \left( \cos \left( x \right)  \right) ^{2}-1=- \left( \sin \left( x \right)  \right) ^{2}:
+Ta có:
+f=\sin \left( x \right) 
+Kết thúc.

@@ -1,0 +1,9 @@
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\bin\x86\Debug\MapleBatchFile.exe.config
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\bin\x86\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\bin\x86\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\x86\Debug\MapleBatchFile.MapleBatchFile.resources
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\x86\Debug\MapleBatchFile.Properties.Resources.resources
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\x86\Debug\MapleBatchFile.csproj.GenerateResource.Cache
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\x86\Debug\MapleBatchFile.exe
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\x86\Debug\MapleBatchFile.pdb
+C:\Users\tranq\Desktop\ccccc\MapleConnection\MapleBatchFile\obj\x86\Debug\MapleBatchFile.csprojResolveAssemblyReference.cache

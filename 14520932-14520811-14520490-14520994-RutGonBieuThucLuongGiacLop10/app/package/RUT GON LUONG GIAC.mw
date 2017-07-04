@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2016" minor="2"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" contextmenusize="automatic" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="standard" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Serif" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Monospaced" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Monospaced" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Serif" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L65" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L2" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart;</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L3" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim := table():</Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L5" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[init] := proc()
+global R_RG, R_KT, HDT, SOL, used;
+local read_rules;
+
+	<Font foreground="[0,0,0]" encoding="UTF-8">#-------H\303\240m \304\221\341\273\215c file lu\341\272\255t--------------------------------------</Font>
+	read_rules := proc(filename)
+	local rules, fd, line, s;
+		rules := [];
+		fd := fopen(cat(url, &quot;/DATA/&quot;,filename), READ, TEXT);
+		line := readline(fd);
+		while line &lt;&gt; 0 and SearchText(&quot;begin_rules&quot;, line) = 0  do
+     			line := readline(fd);<Font bold="false">
+		</Font>od;	
+		line := readline(fd);
+		while line &lt;&gt; 0 and SearchText(&quot;end_rules&quot;, line) = 0  do
+			rules := [op(rules), parse(line)];  
+        		line := readline(fd);
+  		od;
+  		fclose(fd);
+		return rules;
+	end: # read_rules
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8">#-------Th\303\242n h\303\240m init--------------------------------------------</Font>
+	SOL := [];
+	R_RG := read_rules(&quot;luatrutgon.txt&quot;);
+	R_KT := read_rules(&quot;luatkhaitrien.txt&quot;);
+	HDT := read_rules(&quot;hangdangthuc.txt&quot;);
+
+end: # init</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L12" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Expr_Length] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m chi\341\273\201u d\303\240i c\341\273\247a m\341\273\231t bi\341\273\203u th\341\273\251c h\303\240m</Font>
+local listexpr, i;
+	if type(expr,`function`) and member(op(0,expr),{sin, cos, tan, cot}) then
+		return 1; 
+	fi;
+	if type(expr,`^`) and type(op(2, expr), posint)then
+		return op(2,expr)*Expr_Length(op(1,expr));	
+	fi;
+	if type(expr,`^`) and op(2,expr) = -1 then 
+		return Expr_Length(op(1,expr));
+	fi;
+	if type(expr,`^`) and type(op(2, expr), fraction) then
+		return Expr_Length(op(1,expr));
+	fi;
+	if type(expr,`+`) then
+		listexpr := [op(expr)];
+		return convert(map(s-&gt;Expr_Length(s), listexpr),`+`);
+	fi;
+	if type(expr,`*`) then
+<Font encoding="UTF-8">		# Kh\303\264ng c\303\263 m\341\272\253u
+</Font>		if denom(expr) = 1 then
+			listexpr := [op(expr)];
+			return convert(map(s-&gt;Expr_Length(s), listexpr),`+`);
+<Font encoding="UTF-8">		# C\303\263 m\341\272\253u
+</Font>		else
+			return Expr_Length(numer(expr)) + Expr_Length(denom(expr));
+		fi;	
+	fi;
+	if type(expr,`function`) and op(0,expr) = sqrt then
+		return Expr_Length(op(expr));
+	fi;
+	if type(expr,`=`) then
+		return Expr_Length(lhs(expr))  + Expr_Length(rhs(expr));		
+	fi;
+
+	return 0; 
+end: # Expr_Length</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" hide-output="false" labelreference="L56" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Is_Sub_Coeff] := proc(subexpr, s)
+local setsub, sets, i, num, coms;
+	setsub := {op(subexpr)}; 
+	sets := {op(s)};
+	for i in sets do
+		if type(i, `*`) and type(op(1, i), numeric) and denom(i) = 1 then
+			num := op(1,i); 
+			break;
+		fi;	
+	od;	
+	sets := map(s-&gt;s/num, sets);
+	sets := convert([op(sets)], `+`);
+	if subexpr = sets then 
+		return true, num; 
+	fi;
+	return false, 0; 
+end: </Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L55" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Is_SubExpr_Add] := proc(subexpr, expr)
+local setexpr, comexpr, s, temp, flag, num;
+<Font encoding="UTF-8">	# TH subexpr c\303\263 d\341\272\241ng A+B
+</Font>	if type(subexpr, `+`) and nops({op(subexpr)}) = 2 then
+		if type(expr, `+`) then
+			setexpr := {op(expr)}; 
+			comexpr := combinat[permute](setexpr,2);
+			comexpr := map(s-&gt;convert(s,`+`), comexpr);
+			for s in comexpr do
+				if s = subexpr then
+					return true; 
+				else
+					flag:= Is_Sub_Coeff(subexpr, s);
+					if flag[1] = true then
+						return true; 
+					fi; 
+				fi; 
+			od;	
+		fi;
+	fi;
+	return false;
+end:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="code" hide-output="false" labelreference="L54" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L14" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Is_SubExpr] := proc(subexpr, expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ki\341\273\203m tra subexpr c\303\263 ph\341\272\243i l\303\240 bi\341\273\203u th\341\273\251c con c\341\273\247a expr kh\303\264ng?</Font>
+local temp;
+	if has(expr, subexpr) then return true; fi;
+
+	temp := applyrule(subexpr = _X, expr);
+	if convert(temp,string) &lt;&gt; convert(expr, string) then return true; fi;
+
+	if type(subexpr, `+`) and nops({op(subexpr)}) = 2 then
+		return Is_SubExpr_Add(subexpr, expr); 
+	fi;
+	
+	return false;
+end:# Is_SubExpr</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L18" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Heu_HDT_Sim] := proc(Hdt, expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ch\341\273\215n ra m\341\273\231t hdt t\341\273\253 t\341\272\255p Hdt theo heuristic
+</Font><Font foreground="[0,0,0]"># Heuristic: 
+<Font encoding="UTF-8">	# ch\341\273\215n heu m\303\240 c\303\263 th\341\273\203 l\303\240m expr \304\221\306\241n gi\341\272\243n h\306\241n
+	# chon hdt c\303\263 length(k\341\272\277t qu\341\272\243) l\303\240 nh\341\273\217 nh\341\272\245t v\303\240 length(gi\341\272\243 thuy\341\272\277t) l\303\240 d\303\240i nh\341\272\245t</Font></Font>
+local Heu_Hdt, hdt, maxlen, minlen;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n c\303\241c hdt c\303\263 length(gi\341\272\243 thuy\341\272\277t) d\303\240i nh\341\272\245t</Font>
+	maxlen := max(map(t -&gt; Expr_Length(rhs(t)), Hdt));
+	Heu_Hdt := select(t -&gt; is(Expr_Length(rhs(t)) = maxlen), Hdt);
+	if nops(Heu_Hdt) = 1 then return op(Heu_Hdt);fi;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n ti\341\272\277p hdt c\303\263 length(k\341\272\277t lu\341\272\255n) nh\341\273\217 nh\341\272\245t</Font>
+	minlen := min(map(t-&gt;Expr_Length(lhs(t)),Heu_Hdt));
+	Heu_Hdt := select(t -&gt; is(Expr_Length(lhs(t)) = minlen), Heu_Hdt);	
+
+	return Heu_Hdt[1];
+end:# Heu_HDT_Sim</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L16" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_HDT_Sim] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m mm\341\273\231t h\341\272\261ng \304\221\341\272\263ng th\341\273\251c c\303\263 trong expr \304\221\341\273\203 r\303\272t g\341\273\215n</Font>  
+local funcs, per, hdt, p, subhdt, Hdt, temp;
+global HDT;
+	funcs := indets(expr, function);
+	per := combinat[permute](funcs,2);
+	Hdt := [];
+	for hdt in HDT do
+			for p in per do
+				subhdt := subs({_A = p[1], _B = p[2]}, hdt);
+					if Is_SubExpr(rhs(subhdt),expr) then
+						temp := Apply(rhs(subhdt)=lhs(subhdt),expr);
+						if Expr_Length(temp) &lt; Expr_Length(expr) then
+							return rhs(subhdt)=lhs(subhdt);
+						fi;
+					fi;
+			od;
+	od;
+	if Hdt = [] then  return FAIL;fi;
+	return Heu_HDT_Sim(Hdt, expr);
+	
+end: # Find_HDT_Sim</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L40" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_Arc] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m c\303\241c \304\221\341\273\221i c\341\273\247a expr</Font>
+local lfun;
+	lfun := indets(expr,function);
+	lfun := map(t-&gt;op(t),lfun);
+	return lfun;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L39" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Heu_Rule_Sim] := proc(Rrg, expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ch\341\273\215n ra m\341\273\231t hdt t\341\273\253 t\341\272\255p Hdt theo heuristic
+</Font><Font foreground="[0,0,0]"># Heuristic: 
+<Font encoding="UTF-8">	# 1. \306\257u ti\303\252n ch\341\273\215n rule c\303\263 v\341\272\277 ph\341\272\243i l\303\240 s\341\273\221
+	# 2. # \306\260u ti\303\252n kh\303\264ng sinh ra cung m\341\273\233i, tr\341\273\253 tr\306\260\341\273\235ng h\341\273\243p length(expr) &lt;= 2</Font>
+<Font encoding="UTF-8">	# 3. \306\257u ti\303\252n d\303\271ng c\303\241c lu\341\272\255t bi\341\272\277n \304\221\341\273\225i th\303\240nh tan, cot n\341\272\277u trong bi\341\273\203u th\341\273\251c c\303\263 sin, cos &lt; tan, cot
+	# 4, chon hdt c\303\263 length(k\341\272\277t qu\341\272\243) l\303\240 nh\341\273\217 nh\341\272\245t v\303\240 length(gi\341\272\243 thuy\341\272\277t) l\303\240 d\303\240i nh\341\272\245t
+</Font>		</Font>
+local Heu_Rrg, rule, maxlen, minlen, temp, num, arce, Temp;
+
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \303\241p d\341\273\245ng heuristic 1</Font>
+	temp := select(t-&gt;is(type(rhs(t),`numeric`)), Rrg);
+	if temp &lt;&gt; [] then return temp[1]; fi; 
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \303\241p d\341\273\245ng heuristic 2</Font>
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n c\303\241c lu\341\272\255t kh\303\264ng sinh cung m\341\273\233i</Font><Font foreground="[0,0,0]">
+</Font>	temp := [];
+	arce := Find_Arc(expr);
+	for rule in Rrg do
+		if Find_Arc(rhs(rule)) subset arce then 
+		     temp := [op(temp), rule];
+		fi;
+	od;
+
+	<Font foreground="[0,0,0]" encoding="UTF-8"># N\341\272\277u l\303\240 l\341\272\247n cu\341\273\221i th\303\254 kh\303\264ng c\341\272\247n ch\341\273\215n </Font>
+	if Expr_Length(expr) &lt; 3  or temp = [] then
+		temp := Rrg;
+	fi;
+	
+	Temp := temp;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \303\241p d\341\273\245ng heuristic 2</Font>
+	num := Count_Func(expr, {sin, cos}); 
+	if num &lt;&gt; 0  and num + 3 &lt;  Count_Func(expr, {tan, cot}) then 
+		temp := [];
+		for rule in Temp do
+			if has(rhs(rule), tan) or has(rhs(rule), cot) then
+				temp := [op(temp), rule];
+			fi;
+		od;
+	fi;
+	if temp = [] then temp := Temp;fi;
+	
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n c\303\241c lu\341\272\255t c\303\263 length(gi\341\272\243 thuy\341\272\277t) d\303\240i nh\341\272\245t</Font>
+	maxlen := max(map(t -&gt; Expr_Length(lhs(t)), temp));
+	Heu_Rrg := select(t -&gt; is(Expr_Length(lhs(t)) = maxlen), temp);
+	if nops(Heu_Rrg) = 1 then return op(Heu_Rrg);fi;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n ti\341\272\277p lu\341\272\255t c\303\263 length(k\341\272\277t lu\341\272\255n) nh\341\273\217 nh\341\272\245t</Font>
+	minlen := min(map(t-&gt;Expr_Length(rhs(t)),Heu_Rrg));
+	Heu_Rrg := select(t -&gt; is(Expr_Length(rhs(t)) = minlen), Heu_Rrg);
+	return Heu_Rrg[1];
+end:# Heu_Rule_Sim</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L59" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Get_Var_bien_so] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m l\341\272\245y c\303\241c \304\221\341\273\221i d\341\272\241ng x - s\341\273\221 trong expr</Font>
+local vars, funcs, f, var;
+	funcs := indets(expr, function);
+	vars:={};
+	for f in funcs do
+		if type(f, `function`) and member(op(0, f) ,{sin, cos, tan, cot}) then
+			var := op(1,f);
+			if type(var,`+`) and nops({op(var)}) = 2 then
+				vars := vars union {var}; 
+			fi;
+		fi;
+	od;
+	return vars;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L17" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_Rule_Sim] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m m\341\273\231t lu\341\272\255t r\303\272t g\341\273\215n c\303\263 th\341\273\203 \303\241p d\341\273\245ng \304\221\306\260\341\273\243c l\303\252n expr
+# r \304\221gl \303\241p d\341\273\245ng \304\221\306\260\341\273\243c tr\303\252n expr khi lhs(r) l\303\240 bi\341\273\203u th\341\273\251c con c\341\273\247a expr</Font>
+local vars, r, subr, varr, v, Rrg, per, p, varscong;
+global R_RG;
+	vars := indets(expr, name) minus {Pi};
+	<Font foreground="[0,0,0]" encoding="UTF-8"># C\303\263 tham bi\341\272\277n</Font>
+	if nargs = 2 then vars := vars minus arg[2];fi;
+	Rrg := [];
+	for r in R_RG do
+		varr := indets(r, name);
+		<Font foreground="[0,0,0]" encoding="UTF-8"># expr C\303\263 nhi\341\273\201u bi\341\272\277n</Font>
+		if nops(vars) &gt; 1 then
+			<Font foreground="[0,0,0]" encoding="UTF-8"># lu\341\272\255t r c\303\263 m\341\273\231t bi\341\272\277n</Font>
+			if nops(varr) = 1 then
+				for v in vars do
+					subr := subs(varr[1] = v, r);
+					if Is_SubExpr(lhs(subr), expr) then
+						Rrg := [op(Rrg), subr];
+					fi;	
+				od;
+			<Font foreground="[0,0,0]" encoding="UTF-8"># lu\341\272\255t r c\303\263 2 bi\341\272\277n</Font>
+			else 
+				per := combinat[permute](vars, 2);
+				for p in per do
+					subr := subs({varr[1] = p[1], varr[2] = p[2]}, r);
+					if Is_SubExpr(lhs(subr), expr) then
+						Rrg := [op(Rrg), subr];
+					fi;
+				od;	
+			fi;
+						
+		<Font foreground="[0,0,0]" encoding="UTF-8"># expr C\303\263 m\341\273\231t bi\341\272\277n</Font>
+		elif nops(vars) = 1 then 
+			<Font foreground="[0,0,0]" encoding="UTF-8"># lu\341\272\255t r c\303\263 m\341\273\231t bi\341\272\277n</Font>
+			if nops(varr) = 1 then
+				subr := subs(varr[1] = vars[1], r);
+				if Is_SubExpr(lhs(subr), expr) then
+					Rrg := [op(Rrg), subr];
+				fi;
+			<Font foreground="[0,0,0]" encoding="UTF-8">#lu\341\272\255t r c\303\263 nhi\341\273\201u bi\341\272\277n --&gt; expr c\303\263 \304\221\341\273\221i d\341\272\241ng (x - s\341\273\221). V\303\255 d\341\273\245: (x - Pi/6)</Font>
+			else
+				varscong := Get_Var_bien_so(expr);
+				if varscong &lt;&gt; {} then
+					for v in varscong do
+						per := combinat[permute]({op(v)}, 2);
+						for p in per do
+							subr := subs({varr[1] = p[1], varr[2] = p[2]}, r);
+							if Is_SubExpr(lhs(subr), expr) then
+								Rrg := [op(Rrg), subr];
+							fi;
+						od;	
+					od; 
+				fi;	
+			fi;	
+		fi;
+	od;
+	if Rrg = [] then return FAIL; fi;  
+	return Heu_Rule_Sim(Rrg, expr);
+end: # Find_Rule_Sim</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L19" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_Common_2Poly] := proc(expr1, expr2, gc)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m ph\341\272\247n t\341\273\255 chung gi\341\273\257a hai bi\341\273\203u th\341\273\251c d\341\272\241ng \304\221a th\341\273\251c expr1, expr2 t\341\273\253 d\341\272\241ng ph\303\242n t\303\255ch th\303\240nh nh\303\242n t\341\273\255 g</Font>
+local g, v1, v2, lg, temp;
+	if type(gc, `^`) then lg := [gc];
+	else lg := [op(gc)]; fi;
+	temp :=[];
+	for g in lg do
+		v1 := expr1/g; v2 := expr2/g;
+		if type(g,numeric) then
+			if g*v1 - expr1 = 0 and g*v2 - expr2 = 0 then
+				temp := [op(temp), g];
+			fi;
+		
+		elif Expr_Length(v1) &lt; Expr_Length(expr1) and Expr_Length(v2) &lt; Expr_Length(expr2) then
+			temp := [op(temp), g];
+		fi;
+	od;	
+	return convert(temp,`*`);
+end:# Factor_2Expr</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L20" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_Common_2Expr] := proc(expr1, expr2)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m ph\341\272\247n t\341\273\255 chung c\341\273\247a hai bi\341\273\203u th\341\273\251c expr1, expr1 (c\341\272\243 \304\221a th\341\273\251c v\303\240 ph\303\242n th\341\273\251c)</Font>
+local g, de, nu, temp ;
+	g := factor(expr1 + expr2);
+	if denom(g)  = 1 then
+		temp := Find_Common_2Poly(expr1, expr2, g);
+		if type(temp,numeric) then return FAIL;
+		else return temp; fi;
+	else
+		nu := Find_Common_2Poly(expr1, expr2, numer(g));
+		de := Find_Common_2Poly(expr1, expr2, 1/denom(g));
+		temp :=  nu*de;
+		if type(temp,numeric) then return FAIL;
+		else return temp; fi;
+	fi;
+	return FAIL; 		
+end: #Find_Common_2Expr	</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L23" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Factor_2Expr] := proc(expr1, expr2)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m \304\221\341\272\267t th\341\273\253a s\341\273\221 chung c\341\273\247a bi\341\273\203u th\341\273\251c expr1+expr2</Font>
+local cm, v1, v2;
+	cm := Find_Common_2Expr(expr1, expr2);
+	if cm = FAIL then return FAIL;fi;
+	v1 := expr1 / cm;
+	v2 := expr2/cm;
+	return cm*(v1+v2);		
+end: # Factor_2Expr</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L25" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Has_Form] := proc(expr, form)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ki\341\273\203m tra form c\303\263 trong expr </Font>
+local vars, sf, v;
+	vars := indets(expr, name) minus {Pi};	
+	if form = &quot;sin^2+cos^2&quot;	 then
+		if nops(vars) = 1 then
+			sf := subs(_x = vars[1],sin(_x)^2 + cos(_x)^2 );
+			if Is_SubExpr(sf,expr) then return true;
+			fi;		
+		elif nops(vars) &gt; 1 then
+			for v in vars do
+				sf := subs(_x = v,sin(_x)^2 + cos(_x)^2 );
+				if Is_SubExpr(sf,expr) then return true;
+				fi;	
+			od;
+		fi;	
+	fi;
+	if form  = &quot;tan=sin/cos&quot; then
+		if nops(vars) = 1 then
+			sf := subs(_x = vars[1],tan(_x) = sin(_x)/cos(_x) );
+			if Is_SubExpr(sf,expr) then return true;fi;		
+		elif nops(vars) &gt; 1 then
+			for v in vars do
+				sf := subs(_x = v,tan(_x) = sin(_x)/cos(_x));
+				if Is_SubExpr(sf,expr) then return true;
+				fi;	
+			od;
+		fi;	 
+	fi;
+	if form  = &quot;cot=cos/sin&quot; then
+		if nops(vars) = 1 then
+			sf := subs(_x = vars[1],cot(_x) = cos(_x)/sin(_x) );
+			if Is_SubExpr(sf,expr) then return true;fi;		
+		elif nops(vars) &gt; 1 then
+			for v in vars do
+				sf := subs(_x = v,cot(_x) = cos(_x)/sin(_x));
+				if Is_SubExpr(sf,expr) then return true;
+				fi;	
+			od;
+		fi;	 
+	fi;
+	if form  = &quot;tan^2=1/cos^2-1&quot; then
+		if nops(vars) = 1 then
+			sf := subs(_x = vars[1],tan(_x)^2 = 1/cos(_x)^2 - 1 );
+			if Is_SubExpr(sf,expr) then return true;fi;		
+		elif nops(vars) &gt; 1 then
+			for v in vars do
+				sf := subs(_x = v,tan(_x)^2 = 1/cos(_x)^2 - 1 );
+				if Is_SubExpr(sf,expr) then return true;
+				fi;	
+			od;
+		fi;	 
+	fi;
+	if form  = &quot;cot^2=1/sin^2-1&quot; then
+		if nops(vars) = 1 then
+			sf := subs(_x = vars[1],cot(_x)^2 = 1/sin(_x)^2 - 1 );
+			if Is_SubExpr(sf,expr) then return true;fi;		
+		elif nops(vars) &gt; 1 then
+			for v in vars do
+				sf := subs(_x = v,cot(_x)^2 = 1/sin(_x)^2 - 1 );
+				if Is_SubExpr(sf,expr) then return true;
+				fi;	
+			od;
+		fi;	 
+	fi;
+	return false;	
+end:# Has_Form</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L38" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Count_Func] := proc(expr, func)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m \304\221\341\272\277m s\341\273\221 l\306\260\341\273\243ng h\303\240m fun trong expr
+# func l\303\240 m\341\273\231t t\341\272\255p h\341\273\243p</Font>
+local listexpr, i;
+	if type(expr,`function`) and member(op(0,expr),func) then
+		return 1; 
+	fi;
+	if type(expr,`^`) and type(op(2, expr), posint)then
+		return op(2,expr)*Count_Func(op(1,expr), func);	
+	fi;
+	if type(expr,`+`) then
+		listexpr := [op(expr)];
+		return convert(map(s-&gt;Count_Func(s, func), listexpr),`+`);
+	fi;
+	if type(expr,`*`) then
+<Font encoding="UTF-8">		# Kh\303\264ng c\303\263 m\341\272\253u
+</Font>		if denom(expr) = 1 then
+			listexpr := [op(expr)];
+			return convert(map(s-&gt;Count_Func(s, func), listexpr),`+`);
+<Font encoding="UTF-8">		# C\303\263 m\341\272\253u
+</Font>		else
+			return Count_Func(numer(expr), func) + Count_Func(denom(expr), func);
+		fi;	
+	fi;
+	if type(expr,`function`) and op(0,expr) = sqrt then
+		return Count_Func(op(expr), func);
+	fi;
+	if type(expr,`=`) then
+		return Count_Func(lhs(expr), func)  + Count_Func(rhs(expr), func);		
+	fi;
+
+	return 0; 
+end: # Count_Func</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L24" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Heu_Factor] := proc(lcme)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ch\341\273\215n ra m\341\273\231t c\303\241ch \304\221\341\272\267t th\341\273\253a s\341\273\221 chung theo heuristic
+</Font><Font foreground="[0,0,0]"># Heuristic: 
+<Font encoding="UTF-8">	# 1. c\303\263 xu\341\272\245t hi\341\273\207n d\341\272\241ng sin^2 + cos^2
+	# 2. c\303\263 ph\341\272\247n t\341\273\255 chung #--&gt; Ch\306\260a code t\341\273\221t c\303\241i n\303\240y
+	# 3. c\303\263 h\303\240m cot v\303\240 tan \303\255t nh\341\272\245t
+	# 4. c\303\263 \304\221\341\273\231 d\303\240i nh\341\273\217 nh\341\272\245t</Font></Font>
+	
+local l, hl, temp,  minlen;
+	<Font foreground="[0,0,0]" encoding="UTF-8">#  Ap d\341\273\245ng heuristic 1</Font>
+	hl := [];	
+	for l in lcme do
+		if Has_Form(l, &quot;sin^2+cos^2&quot;) then
+			hl := [op(hl), l];
+		fi;
+	od;	
+	if hl &lt;&gt; [] then return hl[1];fi;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># \303\201p d\341\273\245ng heuristic 3</Font>
+	minlen := min(map(t-&gt;Count_Func(t, {tan,cot}),lcme));
+	if minlen &lt;&gt; 0 then
+		return select(t-&gt;is(Count_Func(t, {tan,cot}) = minlen),lcme)[1];		
+	fi;
+
+	<Font foreground="[0,0,0]"># Ap dungj heuristic 4
+	</Font>minlen := min(map(t-&gt;Expr_Length(t),lcme));
+	return select(t-&gt;is(Expr_Length(t) = minlen),lcme)[1];
+	
+	<Font foreground="[0,0,0]"># Ap dungj heuristic 2</Font>
+	for l in lcme do
+		temp :=  Factor_Expr(l);
+		if temp &lt;&gt; FAIL then return l; fi;
+	od;
+
+end: # Heu_Factor</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L21" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Factor_Expr] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m \304\221\341\272\267t th\341\273\253a s\341\273\221 chung trong expr
+# N\341\272\277u kh\303\264ng \304\221\306\260\341\273\243c th\303\254 return expr</Font>
+local lexpr, per1, per2, p1, p2, cmp1, cmp2, lcme, temp;
+	lcme := [];
+	if type(expr,`+`) then
+		lexpr := [op(expr)];
+		per1 := convert((map(t-&gt;convert(t,set),combinat[permute](lexpr,2))),set);
+		for p1 in per1 do
+			per2 := convert(lexpr,set) minus p1;
+			per2 := convert((map(t-&gt;convert(t,set),combinat[permute](per2,2))),set);
+			cmp1 := Factor_2Expr(op(p1));
+			if cmp1 &lt;&gt; FAIL then
+				if per2 = {} then
+					temp := convert(convert(convert(lexpr,set) minus p1,list),`+`);
+						temp := cmp1 + temp;
+						if not member(temp, lcme) then
+							lcme := [op(lcme), temp];				
+						fi;
+				fi; 
+				for p2 in per2 do
+					cmp2 := Factor_2Expr(op(p2));
+					if cmp2 &lt;&gt; FAIL then
+						temp := convert(convert(convert(lexpr,set) minus (p1 union p2),list),`+`);
+						temp := cmp1 + cmp2 + temp;
+						if not member(temp, lcme) then
+							lcme := [op(lcme), temp];				
+						fi;	
+					else
+						temp := convert(convert(convert(lexpr,set) minus p1,list),`+`);
+						temp := cmp1 + temp;
+						if not member(temp, lcme) then
+							lcme := [op(lcme), temp];				
+						fi;	
+					fi;	
+				od;
+			fi;
+		od;
+		if lcme = [] then return FAIL; fi;
+		if nops(lcme) = 1 then return lcme[1];
+		else
+			return Heu_Factor(lcme);		
+		fi; 	
+	fi;
+	return FAIL;
+end: #Find_Common</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L27" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Apply] := proc(r, expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m \303\241p d\341\273\245ng lu\341\272\255t r l\303\252n expr</Font>
+local g, setexpr, comexpr, s, temp, flag, subexpr, reexpr;
+	g := applyrule(r, expr);
+	if g  - expr &lt;&gt; 0 then return g;fi;
+	#------------------------------------------
+	subexpr := lhs(r); reexpr := rhs(r);
+	if type(lhs(r), `+`) and nops({op(lhs(r))}) = 2 then
+		setexpr := {op(expr)}; 
+		comexpr := combinat[permute](setexpr,2);
+		comexpr := map(s-&gt;convert(s,`+`), comexpr);
+		for s in comexpr do
+			if s = subexpr then
+				temp := setexpr minus({op(s)});
+				temp := convert([op(temp)], `+`) + reexpr; 
+				return temp; 
+			else
+				flag:= Is_Sub_Coeff(subexpr, s);
+				if flag[1] = true then
+					temp := setexpr minus({op(s)});
+					temp := convert([op(temp)], `+`) + flag[2]*reexpr; 
+					return temp; 
+				fi; 
+			fi; 
+		od;
+	fi;
+	return expr;
+end: # Apply</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L26" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Simplify_Simple] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m r\303\272t g\341\273\215n \304\221\306\241n gi\341\272\243n</Font>
+local g, r, flag, temp;
+global SOL, used;
+	used := [];
+	g := expr;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng h\341\272\261ng \304\221\341\272\263ng th\341\273\251c</Font>
+	r := Find_HDT_Sim(g); <Font foreground="[0,0,0]" encoding="UTF-8">#t\303\254m m\341\273\231t hdt c\303\263 th\341\272\277 d\303\271ng \304\221\341\273\203 simplify</Font>
+	while r &lt;&gt; FAIL and not member(r, used) do <Font foreground="[0,0,0]" encoding="UTF-8">#n\341\272\277u c\303\263 lu\341\272\255t r v\303\240 ch\306\260a s\341\273\255 d\341\273\245ng</Font>
+		temp := Apply(r,g); <Font foreground="[0,0,0]" encoding="UTF-8">#\303\241p d\341\273\245ng lu\341\272\255t r</Font>
+		SOL := [op(SOL), [g, r, temp]]; <Font foreground="[0,0,0]" encoding="UTF-8">#th\303\252m r v\303\240o SOL</Font>
+		used := [op(used),r]; <Font foreground="[0,0,0]" encoding="UTF-8">#th\303\252m lu\341\272\255t v\303\240o t\341\272\255p used</Font>
+		g := temp;
+		r := Find_HDT_Sim(g); <Font foreground="[0,0,0]" encoding="UTF-8">#ti\341\272\277p t\341\273\245c t\303\254m rule trong HDT</Font>		
+		
+	od;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng lu\341\272\255t r\303\272t g\341\273\215n</Font>
+	r := Find_Rule_Sim(g); <Font foreground="[0,0,0]" encoding="UTF-8"># L\303\240m t\306\260\306\241ng t\341\273\261 nh\306\260ng v\341\273\233i t\341\272\255p R_RG</Font>
+	while r &lt;&gt; FAIL and not member(r, used) do
+		temp := Apply(r,g);
+		SOL := [op(SOL), [g, r, temp]];
+		used := [op(used),r];
+		g := temp;
+		r := Find_Rule_Sim(g);		
+		
+	od;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \304\221\341\272\267t th\341\273\253a s\341\273\221 chung</Font>
+	r := Factor_Expr(g);
+	if r = FAIL then return g;
+	else 
+		<Font encoding="UTF-8">SOL := [op(SOL), [g, &quot;\304\220\341\272\267t th\341\273\253a s\341\273\221 chung&quot;, r]];</Font>
+		return Simplify_Simple(r);
+	fi;
+	return r;
+	
+end:# Simplify_Simple</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L47" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L43" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Simplify_Simple_Rad] := proc(expr,dk)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m r\303\272t g\341\273\215n \304\221\306\241n gi\341\272\243n cho c\304\203n th\341\273\251c</Font>
+local g, r, flag, temp, mu;
+global SOL, used;
+	if not type(expr, `^`) or not type(op(2,expr), fraction) then return expr;fi;
+	used := [];
+	g := op(1,expr); 
+        mu := op(2,expr); 
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng h\341\272\261ng \304\221\341\272\263ng th\341\273\251c</Font>
+	r := Find_HDT_Sim(g);
+	while r &lt;&gt; FAIL and not member(r, used) do
+		temp := Apply(r,g);
+		SOL := [op(SOL), [g^mu, r, temp^mu]];
+		used := [op(used),r];
+		g := temp;
+		r := Find_HDT_Sim(g);			
+	od;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng lu\341\272\255t r\303\272t g\341\273\215n</Font>
+	r := Find_Rule_Sim(g);
+	while r &lt;&gt; FAIL and not member(r, used) do
+		temp := Apply(r,g);
+		SOL := [op(SOL), [g^mu, r, temp^mu]];
+		used := [op(used),r];
+		g := temp;
+		r := Find_HDT_Sim(g);		
+		
+	od;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \304\221\341\272\267t th\341\273\253a s\341\273\221 chung</Font>
+	r := Factor_Expr(g);
+	if r = FAIL then return g^mu;
+	else 
+		<Font encoding="UTF-8">SOL := [op(SOL), [g^mu, &quot;\304\220\341\272\267t th\341\273\253a s\341\273\221 chung&quot;, r^mu]];</Font>
+		return Simplify_Simple_Rad(r^mu, dk);
+	fi;
+	return r^mu;
+	
+end:# Simplify_Simple_Rad</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L29" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_HDT_Exp] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m m\341\273\231t h\341\272\261ng \304\221\341\272\263ng th\341\273\251c c\303\263 trong expr \304\221\341\273\203 khai tri\341\273\203n</Font>  
+local funcs, per, hdt, p, subhdt, Hdt;
+global HDT;
+	funcs := indets(expr, function);
+	per := combinat[permute](funcs,2);
+	Hdt := [];
+	for hdt in HDT do
+		for p in per do
+			subhdt := subs({_A = p[1], _B = p[2]}, hdt);
+			if Is_SubExpr(lhs(subhdt),expr) then
+				Hdt := [op(Hdt), subhdt];
+			fi;
+		od;
+	od;
+	if Hdt = [] then  return FAIL;fi;
+	return Hdt[1];
+	
+end: # Find_HDT_Exp</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L31" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Heu_Rule_Exp] := proc(Rkt, expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ch\341\273\215n m\341\273\231t lu\341\272\255t khai tri\341\273\203n theo heuristic
+</Font><Font foreground="[0,0,0]"># Heuristic: 
+<Font encoding="UTF-8">	# 1. N\341\272\277u bi\341\273\203u th\341\273\251c c\303\263 nhi\341\273\201u tan v\303\240 cot h\306\241n th\303\254 uy ti\303\252n c\303\241c lu\341\272\255t chuy\341\273\203n v\341\273\201 tan, cot
+	# 2. N\341\272\277u c\303\263 tan^2 = ... v\303\240 cot^2 = ... th\303\254 uu tien s\306\260 d\341\273\245ng	
+	# 3. \306\257u ti\303\252n lu\341\272\255t: tan = sin/cos, cot = cos/sin</Font></Font> 
+local r, num, temp, rule, maxlen, minlen, Heu_Rkt;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \303\241p d\341\273\245ng heuristic 1</Font>
+	#num := Count_Func(expr, {sin, cos}); 
+	#temp := [];
+	#if num &lt;&gt; 0  and num + 3 &lt;  Count_Func(expr, {tan, cot}) then 
+		
+	#	for rule in Rkt do
+	#		if has(rhs(rule), tan) or has(rhs(rule), cot) then
+	#			temp := [op(temp), rule];
+	#		fi;
+	#	od;
+	#fi;
+	#if temp &lt;&gt; [] then return temp[1];fi;
+
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \303\241p d\341\273\245ng heuristic 3</Font>
+	for r in Rkt do
+		if Has_Form(r,&quot;tan=sin/cos&quot;) then return r; fi;
+		if Has_Form(r,&quot;cot=cos/sin&quot;) then return r; fi;
+	od;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 \303\241p d\341\273\245ng heuristic 2
+</Font><Font foreground="[0,0,0]">	#</Font>for r in Rkt do
+	#	if Has_Form(r,&quot;tan^2=1/cos^2-1&quot;) then return r; fi;
+	#	if Has_Form(r,&quot;cot^2=1/sin^2-1&quot;) then return r; fi;
+	#od;
+	
+	varscong := Get_Var_bien_so(expr);
+	if varscong &lt;&gt; {} then
+		<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n c\303\241c lu\341\272\255t c\303\263 length(gi\341\272\243 thuy\341\272\277t) d\303\240i nh\341\272\245t</Font>
+		maxlen := max(map(t -&gt; Expr_Length(lhs(t)), Rkt));
+		Heu_Rkt := select(t -&gt; is(Expr_Length(lhs(t)) = maxlen), Rkt);
+		if nops(Heu_Rkt) = 1 then return op(Heu_Rkt);fi;
+
+		<Font foreground="[0,0,0]" encoding="UTF-8"># Ch\341\273\215n ti\341\272\277p lu\341\272\255t c\303\263 length(k\341\272\277t lu\341\272\255n) nh\341\273\217 nh\341\272\245t</Font>
+		minlen := min(map(t-&gt;Expr_Length(rhs(t)),Heu_Rkt));
+		Heu_Rkt := select(t -&gt; is(Expr_Length(rhs(t)) = minlen), Heu_Rkt);
+		return Heu_Rkt[1];
+	fi; 
+
+	return Rkt[1];
+end:# Heu_Rule_Exp</Text-field>
+</Input>
+<Output><Text-field style="HyperlinkWarning" layout="HyperlinkWarning"><Hyperlink linktarget="http://www.maplesoft.com/support/help/errors/view.aspx?path=Warning,%20%60varscong%60%20is%20implicitly%20declared%20local%20to%20procedure%20%60TriSim%5BHeu_Rule_Exp%5D%60" hyperlink="true"><Font style="HyperlinkWarning">Warning, `varscong` is implicitly declared local to procedure `TriSim[Heu_Rule_Exp]`</Font></Hyperlink></Text-field>
+</Output>
+</Group>
+<Group view="code" hide-output="false" labelreference="L30" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Find_Rule_Exp] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\303\254m m\341\273\231t lu\341\272\255t khai trien c\303\263 th\341\273\203 \303\241p d\341\273\245ng \304\221\306\260\341\273\243c l\303\252n expr
+# r \304\221gl \303\241p d\341\273\245ng \304\221\306\260\341\273\243c tr\303\252n expr khi lhs(r) l\303\240 bi\341\273\203u th\341\273\251c con c\341\273\247a expr</Font>
+local vars, r, subr, varr, v, Rkt, per, p, varscong;
+global R_KT;
+	vars := indets(expr, name) minus {Pi};
+	<Font foreground="[0,0,0]" encoding="UTF-8"># C\303\263 tham bi\341\272\277n</Font>
+	if nargs = 2 then vars := vars minus arg[2];fi;
+	Rkt := [];
+	for r in R_KT do
+		varr := indets(r, name);
+		<Font foreground="[0,0,0]" encoding="UTF-8"># expr C\303\263 nhi\341\273\201u bi\341\272\277n</Font>
+		if nops(vars) &gt; 1 then
+			<Font foreground="[0,0,0]" encoding="UTF-8"># lu\341\272\255t r c\303\263 m\341\273\231t bi\341\272\277n</Font>
+			if nops(varr) = 1 then
+				for v in vars do
+					subr := subs(varr[1] = v, r);
+					if Is_SubExpr(lhs(subr), expr) then
+						Rkt := [op(Rkt), subr];
+					fi;	
+				od;
+			<Font foreground="[0,0,0]" encoding="UTF-8"># lu\341\272\255t r c\303\263 2 bi\341\272\277n</Font>
+			else 
+				per := combinat[permute](vars, 2);
+				for p in per do
+					subr := subs({varr[1] = p[1], varr[2] = p[2]}, r);
+					if Is_SubExpr(lhs(subr), expr) then
+						Rkt := [op(Rkt), subr];
+					fi;
+				od;	
+			fi;
+						
+		<Font foreground="[0,0,0]" encoding="UTF-8"># expr C\303\263 m\341\273\231t bi\341\272\277n</Font>
+		elif nops(vars) = 1 then 
+			<Font foreground="[0,0,0]" encoding="UTF-8"># lu\341\272\255t r c\303\263 m\341\273\231t bi\341\272\277n</Font>
+			if nops(varr) = 1 then
+				subr := subs(varr[1] = vars[1], r);
+				
+				if Is_SubExpr(lhs(subr), expr) then
+					Rkt := [op(Rkt), subr];
+				fi;
+			<Font foreground="[0,0,0]" encoding="UTF-8">#lu\341\272\255t r c\303\263 nhi\341\273\201u bi\341\272\277n --&gt; expr c\303\263 \304\221\341\273\221i d\341\272\241ng (x - s\341\273\221). V\303\255 d\341\273\245: (x - Pi/6)</Font>
+			else
+				varscong := Get_Var_bien_so(expr);
+				if nops(varscong) &gt;= 2 then
+					per := combinat[permute](varscong, 2);
+					for p in per do
+						subr := subs({varr[1] = p[1], varr[2] = p[2]}, r);
+						if Is_SubExpr(lhs(subr), expr) then
+							Rkt := [op(Rkt), subr];
+						fi;
+					od;	
+				fi;
+				if varscong &lt;&gt; {} then
+					for v in varscong do
+						per := combinat[permute]({op(v)}, 2);
+						for p in per do
+							subr := subs({varr[1] = p[1], varr[2] = p[2]}, r);
+							if Is_SubExpr(lhs(subr), expr) then
+								Rkt := [op(Rkt), subr];
+							fi;
+						od;	
+					od; 
+				fi;	
+			fi;	
+		fi;
+		#print(&quot;---   YOU ARE IN HERE ------------&quot;);
+	od;
+	
+	if Rkt = [] then return FAIL; fi;  
+	return Heu_Rule_Exp(Rkt, expr);
+end: # Find_Rule_Exp</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L32" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Mul_To_Sum] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m khai tri\341\273\203n t\303\255ch th\303\240nh t\341\273\225ng trong expr</Font>
+local le, temp, i,temp1, temp2;
+	if type(expr,`^`) and op(2, expr) = -1 then
+		temp := Mul_To_Sum(op(1,expr));
+		if temp = FAIL then return FAIL;
+		else return 1/temp;fi;
+	fi;	
+	if type(expr,`*`) then
+		le := [op(expr)];
+		temp1 :=[]; temp2 := [];
+		for i in le do
+			if type(i,`^`) and op(2,i) = -1 then 
+				temp2 := [op(temp2),i];
+			else
+				temp1 := [op(temp1),i];
+			fi;
+		od;
+<Font encoding="UTF-8">		#C\303\263 m\341\272\253u nh\306\260ng t\341\273\255  = 1
+</Font>		if temp1 = [] then
+			temp2 := convert(temp2,`*`);
+			temp := Mul_To_Sum(denom(temp2));
+			if temp = FAIL then return FAIL;
+			else return 1/temp;fi;
+		fi;
+<Font encoding="UTF-8">		# C\303\263 m\341\272\253u
+</Font>		if temp2  &lt;&gt; [] then
+			temp := [];
+			if convert(temp1,`*`) &lt;&gt; 1 then temp := [convert(temp1,`*`)];fi;
+			temp := [op(temp), convert(temp2,`*`)];
+			le := temp;
+			temp := map(t-&gt;Mul_To_Sum(t), temp);
+			if {op(temp)} = {FAIL} then return FAIL;fi;
+			if temp[1] = FAIL then temp[1] := le[1];fi;
+			if temp[2] = FAIL then temp[2] := le[2];fi;
+			return temp[1]*temp[2];
+
+<Font encoding="UTF-8">		# Kh\303\264ng c\303\263 m\341\272\253u
+</Font>		else 
+			if expr &lt;&gt; expand(expr) then return expand(expr);
+			else return FAIL;fi;
+		fi; 
+	fi;
+	if type(expr,`+`) then
+		le := [op(expr)];	
+		temp := map(t -&gt; Mul_To_Sum(t), le);
+		if {op(temp)} = {FAIL} then
+			if expr &lt;&gt; expand(expr) then return expand(expr);
+			else return FAIL;fi;
+		fi;
+		for i to nops(temp) do
+			if temp[i] = FAIL then
+				temp[i] := le[i];
+			fi;
+		od;
+		temp := convert(temp,`+`);
+		return temp; 	
+	fi;
+		
+	return FAIL;
+
+end: # Mul_To_Sum</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L33" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Com_Denom] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m qui \304\221\341\273\223ng trong expr</Font>
+local le, des, lc, l, need, nu, de;
+	
+	if type(expr,`+`) then
+		le := [op(expr)];
+		des := map(t-&gt; denom(t), le);
+		if {op(des)} = {1} then return FAIL;fi;
+		lc := lcm(op({op(des)}));
+		des :=[];
+		for l in le do
+			need := lc/ denom(l);
+			need := numer(l)*need;
+			des := [op(des), need];
+		od;
+		return convert(des,`+`)/lc;
+	fi;
+	if type(expr,`*`) and denom(expr) &lt;&gt; 1 then  
+		if type(numer(expr),`+`) then nu := Com_Denom(numer(expr));
+		else nu := FAIL;fi;
+		if type(denom(expr),`+`) then de := Com_Denom(denom(expr));
+		else de := FAIL;fi; 
+		if nu  = FAIL and de = FAIL then return FAIL;fi;
+		if nu = FAIL then nu := numer(expr);fi;
+		if de = FAIL then de := denom(expr); fi;
+		return nu/de; 
+	fi;
+	if type(expr,`^`) then 
+		if type(op(1,expr),`+`) then nu := Com_Denom(op(1,expr));
+		else nu := FAIL;fi;
+		if (type(op(2,expr),`+`)) then de := Com_Denom(op(2,expr));
+		else de := FAIL;fi; 
+		if nu  = FAIL and de = FAIL then return FAIL;fi;
+		if nu = FAIL then nu := op(1,expr);fi;
+		if de = FAIL then de := op(2,expr); fi;
+		return nu^de;
+	fi;
+	return FAIL;
+end: # Com_Denom</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L34" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Expand_Simple] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m th\341\273\261c hi\341\273\207n khai tri\341\273\203n expr</Font>
+local g, num, r, temp, varscong;
+global SOL, used;
+	used :=[];
+	g := expr;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng h\341\272\261ng \304\221\341\272\263ng th\341\273\251c</Font>
+	r := Find_HDT_Exp(g);
+	while r &lt;&gt; FAIL and not member(r, used) do
+		temp := Apply(r,g);
+		SOL := [op(SOL), [g, r, temp]];
+		used := [op(used),r];
+		g := temp;
+		r := Find_HDT_Exp(g);		
+		
+	od;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng lu\341\272\255t khai tri\341\273\203n</Font>
+	num := 0;
+	r := Find_Rule_Exp(g);
+	while r &lt;&gt; FAIL and not member(r, used) do
+		if num &lt; 1 then
+			temp := Apply(r,g);
+			SOL := [op(SOL), [g, r, temp]];
+			used := [op(used),r];
+			g := temp;
+			num := num + 1;
+		else
+			if Has_Form(r, &quot;tan=sin/cos&quot;) or Has_Form(r, &quot;cot=cos/sin&quot;) or 
+			   Has_Form(r, &quot;tan^2=1/cos^2-1&quot;) or Has_Form(r, &quot;cot^2=1/sin^2-1&quot;) then
+				temp := Apply(r,g);
+				SOL := [op(SOL), [g, r, temp]];
+				used := [op(used),r];
+				g := temp;
+				num := num +1;
+			else 
+				varscong  := Get_Var_bien_so(lhs(r));
+				if varscong &lt;&gt; {} then
+					temp := Apply(r,g);
+					SOL := [op(SOL), [g, r, temp]];
+					used := [op(used),r];
+					g := temp;
+					num := num +1;
+				else 
+					break;
+				fi; 
+				
+			fi;
+			
+		fi;	
+		r := Find_Rule_Exp(g);		
+		
+	od;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 bi\341\272\277n \304\221\341\273\225i t\303\255ch th\303\240nh t\341\273\225ng</Font>
+	r := Mul_To_Sum(g);
+	if r &lt;&gt; FAIL then
+		<Font encoding="UTF-8">SOL := [op(SOL), [g, &quot;T\303\255ch th\303\240nh t\341\273\225ng&quot;, r]];</Font>
+		return (r);
+	fi;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 qui \304\221\341\273\223ng m\341\272\253u th\341\273\251c</Font>
+	r := Com_Denom(g);
+	if r &lt;&gt; FAIL then 
+		<Font encoding="UTF-8">SOL := [op(SOL), [g, &quot;Qui \304\221\341\273\223ng&quot;, r]];</Font>
+		return (r);
+	fi; 
+	return g;
+	
+		
+end: # Expand_Simple</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L48" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L44" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Expand_Simple_Rad] := proc(expr, dk)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m th\341\273\261c hi\341\273\207n khai tri\341\273\203n expr d\341\272\241ng c\304\203n th\341\273\251c</Font>
+local g, num, r, temp, mu;
+global SOL, used;
+	if not type(expr, `^`) or not type(op(2,expr), fraction) then return expr;fi;
+	used :=[];
+	g := op(1,expr);
+	mu := op(2,expr);
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng h\341\272\261ng \304\221\341\272\263ng th\341\273\251c</Font>
+	r := Find_HDT_Exp(g);
+	while r &lt;&gt; FAIL and not member(r, used) do
+		temp := Apply(r,g);
+		SOL := [op(SOL), [g^mu, r, temp^mu]];
+		used := [op(used),r];
+		g := temp;
+		r := Find_HDT_Exp(g);		
+		
+	od;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 d\303\271ng lu\341\272\255t r\303\272t g\341\273\215n</Font>
+	num := 0;
+	r := Find_Rule_Exp(g);
+	while r &lt;&gt; FAIL and not member(r, used) do
+		if num &lt; 1 then
+			temp := Apply(r,g);
+			SOL := [op(SOL), [g^mu, r, temp^mu]];
+			used := [op(used),r];
+			g := temp;
+			num := num + 1;
+		else
+			if Has_Form(r, &quot;tan=sin/cos&quot;) or Has_Form(r, &quot;cot=cos/sin&quot;) or 
+			   Has_Form(r, &quot;tan^2=1/cos^2-1&quot;) or Has_Form(r, &quot;cot^2=1/sin^2-1&quot;) then
+				temp := Apply(r,g);
+				SOL := [op(SOL), [g^mu, r, temp^mu]];
+				used := [op(used),r];
+				g := temp;
+				num := num +1;
+			else 
+				break;
+			fi;
+			
+		fi;	
+		r := Find_Rule_Exp(g);		
+		
+	od;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 bi\341\272\277n \304\221\341\273\225i t\303\255ch th\303\240nh t\341\273\225ng</Font>
+	r := Mul_To_Sum(g);
+	if r &lt;&gt; FAIL then
+		<Font encoding="UTF-8">SOL := [op(SOL), [g^mu, &quot;T\303\255ch th\303\240nh t\341\273\225ng&quot;, r^mu]];</Font>
+		return (r^mu);
+	fi;
+	
+	<Font foreground="[0,0,0]" encoding="UTF-8"># Th\341\273\255 qui \304\221\341\273\223ng m\341\272\253u th\341\273\251c</Font>
+	r := Com_Denom(g);
+	if r &lt;&gt; FAIL then 
+		<Font encoding="UTF-8">SOL := [op(SOL), [g^mu, &quot;Qui \304\221\341\273\223ng&quot;, r^mu]];</Font>
+		return (r^mu);
+	fi; 
+	return g^mu;
+	
+		
+end: # Expand_Simple_Rad</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L49" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Is_Common_Denom] := proc(expr)
+local mau, sete;
+	if type(expr, `+`) then
+		sete := {op(expr)};
+		mau := map(s-&gt;denom(s), sete);	
+		if nops(mau) = 1 then return true; fi;
+	fi;
+	return false; 
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L36" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">TriSim[Simplify_Tri_B\306\260\341\273\233c2] := proc(g)
+<Font foreground="[0,0,0]"># H\303\240m th\341\273\261c hi\341\273\207n b\306\260\341\273\233c 2 trong thu\341\272\255t gi\341\272\243i r\303\272t g\341\273\215n</Font></Font>
+local h, l, temp;
+global count, gold, SOL;
+	if Expr_Length(gold) &lt;= 1 then return gold;fi; <Font foreground="[0,0,0]" encoding="UTF-8">#n\341\272\277u bi\341\273\203u th\341\273\251c ch\341\273\211 c\303\262n l\303\240 s\341\273\221, return (\304\221k d\341\273\253ng \304\221\341\273\207 qui)</Font>
+	h := Expand_Simple(g);<Font foreground="[0,0,0]" encoding="UTF-8"> #n\341\272\277u kh\303\264ng, expand ra xem c\303\263 g\303\254</Font>
+	if h = g then return gold; <Font foreground="[0,0,0]" encoding="UTF-8">#n\341\272\277u kh\303\264ng c\303\263 g\303\254 thay \304\221\341\273\225i, ngh\304\251a l\303\240 bi\341\273\203u th\341\273\251c \341\273\237 m\341\273\251c k th\341\273\203 \304\221\306\241n gi\341\272\243n h\306\241n (theo lu\341\272\255t hi\341\273\207n c\303\263),                                       #return (\304\221k d\341\273\253ng \304\221\341\273\207 qui)
+</Font>	else
+		l := Simplify_Simple(h);<Font foreground="[0,0,0]" encoding="UTF-8"> #th\341\273\255 t\303\254m m\341\272\245y c\303\241i lu\341\272\255t thay th\341\272\277, r\341\273\223i \304\221\306\241n gi\341\272\243n bi\341\273\203u th\341\273\251c hi\341\273\207n t\341\272\241i theo c\303\241c lu\341\272\255t</Font>
+		if (Expr_Length(l) &lt; Expr_Length(gold)) or 
+			(Expr_Length(l) = Expr_Length(gold) and length(convert(l,string)) &lt; length(convert(gold,string))) then
+                  <Font foreground="[0,0,0]" encoding="UTF-8"># n\341\272\277u bi\341\273\203u th\341\273\251c sau khi simplify thay \304\221\341\273\225i g\341\273\215n h\306\241n(kh\303\264ng ph\341\272\243i bi\341\273\203u th\341\273\251c cu\341\273\221i c\303\271ng)
+                  # l\303\272c n\303\240y l \304\221\306\241n gi\341\272\243n h\306\241n gold (\304\221\303\241nh gi\303\241 theo heuristic</Font> )
+
+			gold := l;<Font foreground="[0,0,0]" encoding="UTF-8"> # g\303\241n bi\341\273\203u th\341\273\251c t\341\273\221i gi\341\272\243n l\303\240 l (ch\341\273\257 l\341\273\235 :)) )</Font>
+			count := 0;
+<Font encoding="UTF-8">			return Simplify_Tri_B\306\260\341\273\233c2(l); <Font foreground="[0,0,0]">#ti\341\272\277p t\341\273\245c quay l\341\272\241i ki\341\273\203m tra xem \304\221\303\263 c\303\263 ph\341\272\243i l\303\240 tr\341\272\241ng th\303\241i r\303\272t g\341\273\215n cu\341\273\221i c\303\271ng hay k</Font></Font>
+		else
+			if count &lt; 3 then <Font foreground="[0,0,0]" encoding="UTF-8">#max v\303\262ng l\341\272\267p  l\303\240 3, l\341\273\233n h\306\241n k l\303\240m n\341\273\257a</Font>
+				count := count +1;
+<Font encoding="UTF-8">				return Simplify_Tri_B\306\260\341\273\233c2(l); #\304\221\341\273\207 qui l\303\240m ti\341\272\277p			
+</Font>			else <Font foreground="[0,0,0]" encoding="UTF-8">#l\341\272\267p qu\303\241 3 l\341\272\247n r</Font>
+				if Is_Common_Denom(gold) then 
+					temp := numer(gold)/denom(gold); 
+<Font encoding="UTF-8">					SOL := [op(SOL), [gold, &quot;M\341\272\253u chung&quot;, temp]];
+</Font>					gold := temp; 
+				fi;  
+				return gold;
+			fi; 
+		fi;
+	fi;
+<Font encoding="UTF-8">end: # Simplify_Tri_B\306\260\341\273\233c2</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L50" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Omit_Sqrt] := proc(expr, dk)
+global SOL;
+local mu, f, g;
+	if type(expr,`^`) then
+		mu := op(2,expr); 
+		if type(mu, `fraction`) and mu = 1/2 then
+			f := op(1,expr);
+			g := sqrt(f) assuming op(dk);
+			if type(g, `^`) and op(2,g) = 1/2 then return expr;fi;
+			SOL :=[op(SOL),[expr,dk,g]];
+			return g; 	
+		fi;
+	fi;
+	return expr;			
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L45" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font encoding="UTF-8">TriSim[Simplify_Tri_B\306\260\341\273\233c2_Rad] := proc(g, dk)
+<Font foreground="[0,0,0]"># H\303\240m th\341\273\261c hi\341\273\207n b\306\260\341\273\233c 2 trong thu\341\272\255t gi\341\272\243i r\303\272t g\341\273\215n dang can thuc</Font></Font>
+local h, l, mu;
+global count, gold;
+	if Expr_Length(gold) &lt;= 1 then return gold;fi;
+	h := Expand_Simple_Rad(g,dk);
+	h := Omit_Sqrt(h,dk);	
+	if not type(h, `^`) or (type(h, `^`) and op(2,h) &lt;&gt; 1/2) then return h;fi; 
+	if h = g then return gold;	
+	else
+		l := Simplify_Simple_Rad(h, dk); l := Omit_Sqrt(l,dk);
+		if not type(l, `^`) or (type(l, `^`) and op(2,l) &lt;&gt; 1/2) then return l;fi; 
+		if (Expr_Length(l) &lt; Expr_Length(gold)) or 
+			(Expr_Length(l) = Expr_Length(gold) and length(convert(l,string)) &lt; length(convert(gold,string))) then
+			gold := l;
+			count := 0;
+<Font encoding="UTF-8">			return Simplify_Tri_B\306\260\341\273\233c2_Rad(l,dk);
+</Font>		else
+			if count &lt; 3 then
+				count := count +1;
+<Font encoding="UTF-8">				return Simplify_Tri_B\306\260\341\273\233c2_Rad(l,dk);			
+</Font>			else 
+				gold := Omit_Sqrt(gold, dk);
+				return gold; 
+			fi; 
+		fi;
+	fi;
+<Font encoding="UTF-8">end: # Simplify_Tri_B\306\260\341\273\233c2_Rad</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L58" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Omit_Denom_Denom] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m kh\341\273\255 m\341\272\253u \341\273\237 m\341\272\253u</Font>
+local setexpr, s, new, flag;
+global SOL;	
+	new := expr; flag := false; 
+	if type(expr, `+`) then
+		new := {};
+		setexpr := {op(expr)};
+		for s in setexpr do
+			if convert(numer(s)/denom(s),string) &lt;&gt; convert(s,string) then
+				new := new union {numer(s)/denom(s)};
+				flag := true; 
+			else
+				new := new union {s}; 
+			fi;
+		od;	
+		new := convert([op(new)], `+`)	;
+		if flag = true then 
+	<Font encoding="UTF-8">		SOL := [op(SOL), [expr, &quot;Qui \304\221\341\273\223ng&quot;, new]];
+</Font>		fi; 
+	
+	fi;
+	return new; 
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L35" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Simplify_Tri_Poly] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\341\273\225ng qu\303\241t th\341\273\261c hi\341\273\207n r\303\272t g\341\273\215n bi\341\273\203u th\341\273\251c l\306\260\341\273\243ng gi\303\241c expr c\303\263 d\341\272\241ng \304\221a th\341\273\251c v\303\240 ph\303\242n th\341\273\251c</Font>	
+local g, h, l, newexpr;
+global SOL, gold, count, goal;
+
+<Font encoding="UTF-8">	# Heuristic: N\341\272\277u \341\273\237 m\341\272\253u c\303\263 d\341\272\241ng ph\303\242n s\341\273\221 th\303\254 th\341\273\261c hi\341\273\207n qui \304\221\341\273\223ng.
+</Font>	newexpr := Omit_Denom_Denom(expr); 
+	<Font foreground="[0,0,0]" encoding="UTF-8"># B\306\260\341\273\233c 1</Font>
+	g := Simplify_Simple(newexpr); <Font foreground="[0,0,0]" encoding="UTF-8">#simplify \304\221\306\241n gi\341\272\243n ra 1 kq</Font>
+	gold := g; <Font foreground="[0,0,0]" encoding="UTF-8">#xem k\341\272\277t qu\341\272\243 l\303\240 bi\341\273\203u th\341\273\251c g\341\273\215n nh\341\272\245t (\304\221\303\243 r\303\272t g\341\273\215n t\341\273\221i \306\260u), sau \304\221\303\263 ki\341\273\203m tra l\341\272\241i \341\273\237 b\306\260\341\273\233c sau.</Font>
+	count := 0;
+
+	<Font foreground="[0,0,0]" encoding="UTF-8"># B\306\260\341\273\233c 2</Font>
+<Font encoding="UTF-8">	goal := Simplify_Tri_B\306\260\341\273\233c2(g); <Font foreground="[0,0,0]"># \341\273\237 \304\221\303\242y g\341\273\223m c\303\241c thao t\303\241c: ki\341\273\203m tra n\341\272\277u g l\303\240 s\341\273\221 th\303\254 return, n\341\272\277u \304\221\303\243 t\341\273\221i gi\341\272\243n th\303\254 return
+                                     # n\341\272\277u kh\303\264ng th\303\254 \304\221\341\273\207 qui r\303\272t g\341\273\215n bi\341\273\203u th\341\273\251c ti\341\272\277p</Font></Font>
+	return goal;
+end:# Simplify_Tri_Poly</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L46" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Simplify_Tri_Rad] := proc(expr, dk)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m t\341\273\225ng qu\303\241t th\341\273\261c hi\341\273\207n r\303\272t g\341\273\215n bi\341\273\203u th\341\273\251c l\306\260\341\273\243ng gi\303\241c expr c\303\263 d\341\272\241ng \304\221a th\341\273\251c v\303\240 ph\303\242n th\341\273\251c</Font>	
+local g, h, l;
+global SOL, gold, count, goal;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># B\306\260\341\273\233c 1</Font>
+	
+	g := Simplify_Simple_Rad(expr, dk); g := Omit_Sqrt(g, dk);
+	gold := g;
+	count := 0;
+
+	<Font foreground="[0,0,0]" encoding="UTF-8"># B\306\260\341\273\233c 2</Font>
+<Font encoding="UTF-8">	goal := Simplify_Tri_B\306\260\341\273\233c2_Rad(g, dk);
+</Font>	return goal;
+end:# Simplify_Tri_Rad</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L42" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Is_Radical] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m ki\341\273\203m tra expr c\303\263 ph\341\272\243i d\341\272\241ng c\304\203n th\341\273\251c</Font>
+local func, lfunc,f;
+	func := indets(expr);
+	lfunc := [];
+	for f in func do
+		if type(f,`^`) and type(op(2,f), `fraction`) then
+			lfunc := [op(lfunc), f];
+		fi;
+	od;
+	if lfunc = [] then return false,[];
+	else return true, lfunc;fi;		
+end:# Is_Radical</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L41" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[Simplify_Tri] := proc(expr)
+<Font foreground="[0,0,0]"># <Font encoding="UTF-8">H\303\240m t\341\273\225ng qu\303\241t th\341\273\261c hi\341\273\207n r\303\272t g\341\273\215n bi\341\273\203u th\341\273\251c l\306\260\341\273\243ng gi\303\241c expr</Font></Font>
+global SOL;
+local lfunc, temp, newexpr, dk, fl, f, solanlap, flag;
+	SOL := [];  
+	solanlap := 0; 
+	lfunc := Is_Radical(expr);
+	if not lfunc[1] then
+		return Simplify_Tri_Poly(expr);
+	else
+		lfunc := lfunc[2];
+		if nargs = 2 then dk := args[2]; 
+		else dk := {};fi;
+			
+		if nops(lfunc) = 1 and op(lfunc) = expr then
+			
+			temp := Simplify_Tri_Rad(op(lfunc),dk);
+			return temp; 
+		else 
+			
+			newexpr := expr;
+			flag := true; 
+			while flag and solanlap &lt;= 4 do
+				solanlap := solanlap +1; 
+				for fl in lfunc do
+<Font encoding="UTF-8">					SOL := [op(SOL), [convert(&quot;TI\341\272\276N H\303\200NH R\303\232T G\341\273\214N BI\341\273\202U TH\341\273\250C: &quot;,string),'g' =  fl]]; 	</Font>
+					temp := Simplify_Tri_Rad(fl, dk);
+					newexpr := subs(fl = temp, newexpr);
+<Font encoding="UTF-8">					SOL := [op(SOL), [convert(&quot;TA \304\220\306\257\341\273\242C: &quot;,string), 'f' = newexpr]];</Font>
+				od;
+				flag, lfunc := Is_Radical(newexpr);				
+			od;	
+			SOL := [op(SOL), [<Font encoding="UTF-8">convert(&quot;TI\341\272\276N H\303\200NH R\303\232T G\341\273\214N BI\341\273\202U TH\341\273\250C: &quot;,string)</Font>, 'f' = newexpr]];	
+			return Simplify_Tri_Poly(newexpr);
+			
+		fi;
+	fi;
+	
+end: # Simplify_Tri</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L57" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L37" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">TriSim[print_SOL] := proc(expr)
+<Font foreground="[0,0,0]" encoding="UTF-8"># H\303\240m in b\303\240i gi\341\272\243i</Font>
+local s, num, temp, dir;
+global SOL, goal;
+	<Font foreground="[0,0,0]" encoding="UTF-8"># X\303\263a b\306\260\341\273\233c gi\341\272\243i th\341\273\253a</Font>
+	temp :=[];
+	for s in SOL do
+		if nops(s) = 3 then
+			if s[3] = goal then
+				temp := [op(temp),  s];
+				break;
+			else
+				temp := [op(temp),  s];
+			fi;
+		else 
+			temp := [op(temp), s]; 
+		fi; 
+	od;
+      <Font foreground="[0,0,0]" encoding="UTF-8">#in b\306\260\341\273\233c gi\341\272\243i ra m\303\240n h\303\254nh v\303\240 xu\341\272\245t b\306\260\341\273\233c gi\341\272\243i ra file</Font>
+      dir := FileTools:-JoinPath([currentdir(), &quot;out.txt&quot;]);
+      if not FileTools:-Exists(dir) then Export(dir, &quot;&quot;) end if;
+      FileTools[Text]:-Open(dir, overwrite = true);
+
+      printf(&quot;<Font encoding="UTF-8">\134tInput:\134n&quot;);
+</Font>      print(expr);
+<Font encoding="UTF-8">      printf(&quot;\134n&quot;);</Font>
+      FileTools[Text]:-WriteString(dir, <Font encoding="UTF-8">&quot;Input:\134n&quot;);
+</Font>      FileTools[Text]:-WriteString(dir,cat(latex(expr<Font encoding="UTF-8">,output=string),&quot;\134n&quot;));
+</Font>
+	SOL := temp;
+	num := 1;
+	for s in SOL do
+		if nops(s) = 2 then
+<Font encoding="UTF-8">			printf(&quot;%s\134n&quot;, s[1]);</Font>
+                   FileTools[Text]:-WriteString(dir, cat(<Font encoding="UTF-8">latex(s[1],output=string),&quot;\134n&quot;));</Font>
+			print(s[2]);
+                   <Font encoding="UTF-8">FileTools[Text]:-WriteString(dir, cat(latex(s[2],output=string),&quot;\134n&quot;));</Font> 
+                  
+		else 
+<Font encoding="UTF-8">			printf(&quot;\134t B\306\260\341\273\233c %d: \134n&quot;, num);
+</Font>                   <Font foreground="[51,102,255]">FileTools[Text]:-WriteString(dir, cat(<Font encoding="UTF-8">&quot;B\306\260\341\273\233c &quot;,</Font>convert(num, string),<Font encoding="UTF-8">&quot;:\134n&quot;)</Font>);
+                   </Font>if type(s[2], string) 
+                   then 
+<Font encoding="UTF-8">                      printf(&quot;\134t\134t %s\134n&quot;,s[2]);
+</Font>                      FileTools[Text]:-WriteString(dir, cat(<Font encoding="UTF-8">s[2],&quot;\134n&quot;));</Font>
+                   
+			 else
+<Font encoding="UTF-8">                      printf(&quot;\134t\134t \303\201p d\341\273\245ng: &quot;); print(s[2]); 
+</Font>                      FileTools[Text]:-WriteString(dir, <Font encoding="UTF-8">&quot;\303\201p d\341\273\245ng:\134n &quot;);
+</Font>                      <Font foreground="[51,102,255]">FileTools[Text]:-WriteString(dir, cat(latex(s[2],output=string),<Font encoding="UTF-8">&quot;:\134n&quot;)</Font>);</Font>
+
+                  fi;
+<Font encoding="UTF-8">			printf(&quot;\134t\134t Ta c\303\263: &quot;); print('f' = s[3]);</Font>
+                   FileTools[Text]:-WriteString(dir, &quot;<Font encoding="UTF-8">Ta c\303\263:\134n&quot;);
+</Font>                   <Font foreground="[51,102,255]">FileTools[Text]:-WriteString(dir,cat(&quot;f=&quot;,latex(<Font encoding="UTF-8">s[3],output=string),&quot;\134n&quot;));</Font></Font>
+			num := num +1;		
+		fi;
+	od;
+      <Font encoding="UTF-8">printf(&quot;\134t\134t K\341\272\277t th\303\272c&quot;);</Font>
+      FileTools[Text]:-WriteString(dir, &quot;<Font encoding="UTF-8">K\341\272\277t th\303\272c.\134n&quot;);</Font>
+
+      FileTools[Text]:-Close(dir);
+	return;
+end:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L51" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L6" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#url := currentdir();
+#save(TriSim,cat(url,&quot;/TriSim.m&quot;));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L7" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">packageDir := cat(currentdir(), kernelopts(dirsep), &quot;TriSim.mla&quot;); 
+if FileTools:-Exists(packageDir) 
+    then FileTools:-Remove(packageDir) 
+end if; 
+LibraryTools:-Create(packageDir); 
+savelibname := packageDir; 
+savelib('TriSim')</Text-field>
+</Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVErcGFja2FnZURpckYnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKn4mIzg3ODg7fkYnL0YzUSdub3JtYWxGJy8lJmZlbmNlR1EmZmFsc2VGJy8lKnNlcGFyYXRvckdGPS8lKXN0cmV0Y2h5R0Y9LyUqc3ltbWV0cmljR0Y9LyUobGFyZ2VvcEdGPS8lLm1vdmFibGVsaW1pdHNHRj0vJSdhY2NlbnRHRj0vJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZMLUkjbXNHRiQ2I1FdckM6XFVzZXJzXHRyYW5xXERlc2t0b3BcZGVhZGxpbmVfU3ltYm9saWNcR1VJX1RyaVNpbVwxNDUyMDQ5MFxCVDRcTWFwbGVDb25uZWN0aW9uXE1hcGxlQmF0Y2hGaWxlXHBhY2thZ2VcVHJpU2ltLm1sYUYnLyUrZm9yZWdyb3VuZEdRKFswLDAsMF1GJy8lKXJlYWRvbmx5R0Y9Rjk=">UV1yQzpcVXNlcnNcdHJhbnFcRGVza3RvcFxkZWFkbGluZV9TeW1ib2xpY1xHVUlfVHJpU2ltXDE0NTIwNDkwXEJUNFxNYXBsZUNvbm5lY3Rpb25cTWFwbGVCYXRjaEZpbGVccGFja2FnZVxUcmlTaW0ubWxhNiI=</Equation></Text-field>
+</Output>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JVEsc2F2ZWxpYm5hbWVGJy8lJ2l0YWxpY0dRJXRydWVGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYtUSp+JiM4Nzg4O35GJy9GM1Enbm9ybWFsRicvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRj0vJSlzdHJldGNoeUdGPS8lKnN5bW1ldHJpY0dGPS8lKGxhcmdlb3BHRj0vJS5tb3ZhYmxlbGltaXRzR0Y9LyUnYWNjZW50R0Y9LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGTC1JI21zR0YkNiNRXXJDOlxVc2Vyc1x0cmFucVxEZXNrdG9wXGRlYWRsaW5lX1N5bWJvbGljXEdVSV9UcmlTaW1cMTQ1MjA0OTBcQlQ0XE1hcGxlQ29ubmVjdGlvblxNYXBsZUJhdGNoRmlsZVxwYWNrYWdlXFRyaVNpbS5tbGFGJy8lK2ZvcmVncm91bmRHUShbMCwwLDBdRicvJSlyZWFkb25seUdGPUY5">UV1yQzpcVXNlcnNcdHJhbnFcRGVza3RvcFxkZWFkbGluZV9TeW1ib2xpY1xHVUlfVHJpU2ltXDE0NTIwNDkwXEJUNFxNYXBsZUNvbm5lY3Rpb25cTWFwbGVCYXRjaEZpbGVccGFja2FnZVxUcmlTaW0ubWxhNiI=</Equation></Text-field>
+</Output>
+</Group>
+<Group hide-output="false" labelreference="L15" drawlabel="true">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L60" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L66" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L67" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L68" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group hide-output="false" labelreference="L69" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group>
+<Group labelreference="L70" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
